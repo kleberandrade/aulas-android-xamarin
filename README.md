@@ -31,6 +31,7 @@ Disciplina do terceiro/quinto semestre do curso de Análise e Desenvolvimento de
 ## Referências
 
 - [Criando aplicativos móveis com xamarin. Forms book](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/creating-mobile-apps-xamarin-forms/)
+- [Xamarin University Self-Guided Learning](https://elearning.xamarin.com/)
 
 Licença
 ----
