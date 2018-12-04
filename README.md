@@ -1,4 +1,4 @@
-# Eletiva - Programação para Dispositivos Móveis
+# Programação para Dispositivos Móveis (Xamarin)
 
 Disciplina do terceiro/quinto semestre do curso de Análise e Desenvolvimento de Sistemas na [Faculdade de Tecnologia de Americana](http://www.fatec.edu.br/).
 
