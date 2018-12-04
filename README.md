@@ -1,13 +1,20 @@
 # Eletiva - Programação para Dispositivos Móveis
 
-Disciplina do terceiro/quinto semestre do curso de Análise e Desenvolvimento de Sistemas na [Faculdade de Tecnologia de Americana](http://www.fatec.edu.br/). 
+Disciplina do terceiro/quinto semestre do curso de Análise e Desenvolvimento de Sistemas na [Faculdade de Tecnologia de Americana](http://www.fatec.edu.br/).
 
-## Ferramentas utilizadas durante as aulas
+## Referências
+
+- [Criando aplicativos móveis com xamarin. Forms book](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/creating-mobile-apps-xamarin-forms/)
+- [Xamarin University Self-Guided Learning](https://elearning.xamarin.com/)
+
+## Ferramentas utilizadas
 
 - [Tiny PNG - Compressão de Imagens](https://tinypng.com/)
 - [Icones](https://material.io/tools/icons/?style=baseline)
 - [Paleta de Cores](https://flatuicolors.com/)
 - [Gradient](https://uigradients.com)
+
+## Projetos desenvolvidos
 
 ### Projeto 1 - Currículo Pessoal
 
@@ -26,12 +33,6 @@ Disciplina do terceiro/quinto semestre do curso de Análise e Desenvolvimento de
 ### Projeto 8 - Relatos
 
 ### Projeto 9 - Internet das Coisas (IoT)
-
-
-## Referências
-
-- [Criando aplicativos móveis com xamarin. Forms book](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/creating-mobile-apps-xamarin-forms/)
-- [Xamarin University Self-Guided Learning](https://elearning.xamarin.com/)
 
 Licença
 ----
