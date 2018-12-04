@@ -9,24 +9,28 @@ Disciplina do terceiro/quinto semestre do curso de Análise e Desenvolvimento de
 - [Paleta de Cores](https://flatuicolors.com/)
 - [Gradient](https://uigradients.com)
 
-## Projeto 1 - Currículo Pessoal
+### Projeto 1 - Currículo Pessoal
 
-## Projeto 2 - Marcador de jogo de truco
+### Projeto 2 - Marcador de jogo de truco
 
-## Projeto 3 - Caluladora de Combustível
+### Projeto 3 - Caluladora de Combustível
 
-## Projeto 4 - Empréstimo de Objetos
+### Projeto 4 - Empréstimo de Objetos
 
-## Projeto 5 - Calculadora de Juros
+### Projeto 5 - Calculadora de Juros
 
-## Projeto 6 - Jogo da Velha (Tic Tac Toe)
+### Projeto 6 - Jogo da Velha (Tic Tac Toe)
 
-## Projeto 7 - Chat (Firebase)
+### Projeto 7 - Chat (Firebase)
 
-## Projeto 8 - Relatos
+### Projeto 8 - Relatos
 
-## Projeto 9 - Internet das Coisas (IoT)
+### Projeto 9 - Internet das Coisas (IoT)
 
+
+## Referências
+
+- [Criando aplicativos móveis com xamarin. Forms book](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/creating-mobile-apps-xamarin-forms/)
 
 Licença
 ----
