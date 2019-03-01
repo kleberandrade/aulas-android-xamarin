@@ -1,6 +1,6 @@
 # Programação para Dispositivos Móveis (Xamarin)
 
-Disciplina do terceiro/quinto semestre do curso de Análise e Desenvolvimento de Sistemas na [Faculdade de Tecnologia de Americana](http://www.fatec.edu.br/).
+Disciplina do terceiro (matutino) semestre do curso de Análise e Desenvolvimento de Sistemas na [Faculdade de Tecnologia de Americana](http://www.fatec.edu.br/).
 
 ## Referências
 
@@ -16,28 +16,15 @@ Disciplina do terceiro/quinto semestre do curso de Análise e Desenvolvimento de
 
 ## Projetos desenvolvidos
 
-### Projeto 1 - Currículo Pessoal
-
-### Projeto 2 - Marcador de jogo de truco
-
-### Projeto 3 - Caluladora de Combustível
-
-### Projeto 4 - Empréstimo de Objetos
-
-### Projeto 5 - Calculadora de Juros
-
-### Projeto 6 - Jogo da Velha (Tic Tac Toe)
-
-### Projeto 7 - Chat (Firebase)
-
-### Projeto 8 - Relatos
-
-### Projeto 9 - Internet das Coisas (IoT)
+### Projeto 1 - Calculadora de IMC
+* **Layout**: StackLayout
+* **Componentes**: Label, Entry, Button e DisplayAlert
+* **Desafio**: Apresentar a informação da [Tabela do IMC](http://www.calculoimc.com.br/tabela-de-imc/)
 
 Licença
 ----
 
-    Copyright 2018 Kleber de Oliveira Andrade
+    Copyright 2019 Kleber de Oliveira Andrade
     
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
