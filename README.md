@@ -1,6 +1,6 @@
 # Programação para Dispositivos Móveis (Xamarin)
 
-Disciplina do terceiro (matutino) semestre do curso de Análise e Desenvolvimento de Sistemas na [Faculdade de Tecnologia de Americana](http://www.fatec.edu.br/).
+Disciplina do terceiro semestre (matutino) do curso de Análise e Desenvolvimento de Sistemas na [Faculdade de Tecnologia de Americana](http://www.fatec.edu.br/).
 
 ## Referências
 
@@ -16,16 +16,25 @@ Disciplina do terceiro (matutino) semestre do curso de Análise e Desenvolviment
 
 ## Projetos desenvolvidos
 
+Projetos desenvolvidos em sala de aula com os alunos
+
 ### Projeto 1 - Calculadora de IMC
-* **Layout**: StackLayout
-* **Componentes**: Label, Entry, Button e DisplayAlert
-* **Desafio**: Apresentar a informação da [Tabela do IMC](http://www.calculoimc.com.br/tabela-de-imc/)
+* **Layout:** StackLayout
+* **Componentes:** [Label](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/user-interface/text/label), [Entry](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/user-interface/text/entry), [Button](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/user-interface/button) e [DisplayAlert](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/app-fundamentals/navigation/pop-ups)
+* **Dicas:** [Conveter tipos](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/types/how-to-convert-a-string-to-a-number) e [Interpolar caracteres] (https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/tokens/interpolated)
+* **Desafio:** Apresentar a informação da [Tabela do IMC](http://www.calculoimc.com.br/tabela-de-imc/) no DisplayAlert junto com as outras informações do usuário
 
 <p align="center">
   <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshot/calculadora_imc_1.png" height="400"/>
   <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshot/calculadora_imc_2.png" height="400"/>
   <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshot/calculadora_imc_3.png" height="400"/>
 </p>
+
+### Projeto 2 - Calculadora
+* **Layout:** [GridLayout](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/user-interface/layouts/grid)
+* **Componentes:** [TitleView](https://www.andrewhoefling.com/Home/post/xamarin-forms-title-view-a-powerful-navigation-view), Label, Entry e Button
+* **Dicas:** [Manipulação de Strings](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/strings/)
+* **Desafio:** Adicionar um botão para permitir pontos flutuantes [,]
 
 Licença
 ----
