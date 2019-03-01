@@ -21,7 +21,7 @@ Projetos desenvolvidos em sala de aula com os alunos
 ### Projeto 1 - Calculadora de IMC
 * **Layout:** StackLayout
 * **Componentes:** [Label](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/user-interface/text/label), [Entry](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/user-interface/text/entry), [Button](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/user-interface/button) e [DisplayAlert](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/app-fundamentals/navigation/pop-ups)
-* **Dicas:** [Conveter tipos](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/types/how-to-convert-a-string-to-a-number) e [Interpolar caracteres] (https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/tokens/interpolated)
+* **Dicas:** [Conveter tipos](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/types/how-to-convert-a-string-to-a-number) e [Interpolar caracteres](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/tokens/interpolated)
 * **Desafio:** Apresentar a informação da [Tabela do IMC](http://www.calculoimc.com.br/tabela-de-imc/) no DisplayAlert junto com as outras informações do usuário
 
 <p align="center">
