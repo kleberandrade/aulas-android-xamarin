@@ -21,6 +21,12 @@ Disciplina do terceiro (matutino) semestre do curso de Análise e Desenvolviment
 * **Componentes**: Label, Entry, Button e DisplayAlert
 * **Desafio**: Apresentar a informação da [Tabela do IMC](http://www.calculoimc.com.br/tabela-de-imc/)
 
+<p align="center">
+  <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshot/calculadora_imc_1.png" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshot/calculadora_imc_2.png" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshot/calculadora_imc_3.png" height="400"/>
+</p>
+
 Licença
 ----
 
