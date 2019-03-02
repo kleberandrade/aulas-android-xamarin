@@ -25,16 +25,22 @@ Projetos desenvolvidos em sala de aula com os alunos
 * **Desafio:** Apresentar a informação da [Tabela do IMC](http://www.calculoimc.com.br/tabela-de-imc/) no DisplayAlert junto com as outras informações do usuário
 
 <p align="center">
-  <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshot/calculadora_imc_1.png" height="400"/>
-  <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshot/calculadora_imc_2.png" height="400"/>
-  <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshot/calculadora_imc_3.png" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshots/calculadora_imc_1.png" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshots/calculadora_imc_2.png" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshots/calculadora_imc_3.png" height="400"/>
 </p>
 
 ### Projeto 2 - Calculadora
 * **Layout:** [GridLayout](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/user-interface/layouts/grid)
 * **Componentes:** [TitleView](https://www.andrewhoefling.com/Home/post/xamarin-forms-title-view-a-powerful-navigation-view), Label, Entry e Button
 * **Dicas:** [Manipulação de Strings](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/strings/)
-* **Desafio:** Adicionar um botão para permitir pontos flutuantes [,]
+* **Desafio:** Fazer a calculadora funcionar com números de ponto flutuante (números quebrados)
+
+<p align="center">
+  <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshots/calculadora_1.png" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshots/calculadora_2.png" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshots/calculadora_3.png" height="400"/>
+</p>
 
 Licença
 ----

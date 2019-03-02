@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Calculadora"
+             x:Class="Calculadora.MainPage"
+             BackgroundColor="#ecf0f1"
+             Title="Calculadora">
+
+    <Grid RowSpacing="2" ColumnSpacing="2">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Linha 0 -->
+        <Label x:Name="resultadoLabel"
+               Margin="10"
+               FontSize="48" 
+               FontAttributes="Bold"
+               Text="0"
+               BackgroundColor="#ecf0f1"
+               TextColor="#3498db"
+               HorizontalTextAlignment="End"
+               VerticalTextAlignment="Center"
+               LineBreakMode="NoWrap"
+               Grid.Row="0"
+               Grid.ColumnSpan="4" />
+
+        <!-- Linha 1 -->
+        <Button Text="C"
+                Grid.Row="1"
+                Grid.Column="0"
+                FontSize="36"
+                BorderRadius="0" 
+                Grid.ColumnSpan="2"
+                TextColor="#3498db"
+                BackgroundColor="White"
+                Clicked="OnLimpar"/>
+
+        <Button Text="DEL"
+                Grid.Row="1"
+                Grid.Column="2"
+                FontSize="36"
+                BorderRadius="0" 
+                Grid.ColumnSpan="2"
+                TextColor="#3498db"
+                BackgroundColor="White"
+                Clicked="OnApagar"/>
+
+        <!-- Linha 2 -->
+        <Button Text="7"
+                Grid.Row="2"
+                Grid.Column="0"
+                FontSize="36"
+                BorderRadius="0"
+                BackgroundColor="White"
+                Clicked="OnNumeroSelecionado"/>
+
+        <Button Text="8"
+                Grid.Row="2"
+                Grid.Column="1"
+                FontSize="36"
+                BorderRadius="0"
+                BackgroundColor="White"
+                Clicked="OnNumeroSelecionado"/>
+
+        <Button Text="9"
+                Grid.Row="2"
+                Grid.Column="2"
+                FontSize="36"
+                BorderRadius="0"
+                BackgroundColor="White"
+                Clicked="OnNumeroSelecionado"/>
+
+        <Button Text="/"
+                Grid.Row="2"
+                Grid.Column="3"
+                FontSize="36"
+                BorderRadius="0"
+                TextColor="White"
+                BackgroundColor="#3498db"
+                Clicked="OnOperadorSelecionado"/>
+
+        <!-- Linha 3 -->
+        <Button Text="4"
+                Grid.Row="3"
+                Grid.Column="0"
+                FontSize="36"
+                BorderRadius="0"
+                BackgroundColor="White"
+                Clicked="OnNumeroSelecionado"/>
+
+        <Button Text="5"
+                Grid.Row="3"
+                Grid.Column="1"
+                FontSize="36"
+                BorderRadius="0"
+                BackgroundColor="White"
+                Clicked="OnNumeroSelecionado"/>
+
+        <Button Text="6"
+                Grid.Row="3"
+                Grid.Column="2"
+                FontSize="36"
+                BorderRadius="0"
+                BackgroundColor="White"
+                Clicked="OnNumeroSelecionado"/>
+
+        <Button Text="x"
+                Grid.Row="3"
+                Grid.Column="3"
+                FontSize="36"
+                BorderRadius="0"
+                TextColor="White"
+                BackgroundColor="#3498db"
+                Clicked="OnOperadorSelecionado"/>
+
+        <!-- Linha 4 -->
+        <Button Text="1"
+                Grid.Row="4"
+                Grid.Column="0"
+                FontSize="36"
+                BorderRadius="0" 
+                BackgroundColor="White"
+                Clicked="OnNumeroSelecionado"/>
+
+        <Button Text="2"
+                Grid.Row="4"
+                Grid.Column="1"
+                FontSize="36"
+                BorderRadius="0"
+                BackgroundColor="White"
+                Clicked="OnNumeroSelecionado"/>
+
+        <Button Text="3"
+                Grid.Row="4"
+                Grid.Column="2"
+                FontSize="36"
+                BorderRadius="0"
+                BackgroundColor="White"
+                Clicked="OnNumeroSelecionado"/>
+
+        <Button Text="-"
+                Grid.Row="4"
+                Grid.Column="3"
+                FontSize="36"
+                BorderRadius="0"
+                TextColor="White"
+                BackgroundColor="#3498db"
+                Clicked="OnOperadorSelecionado"/>
+
+        <!-- Linha 5 -->
+        <Button Text="0"
+                Grid.Row="5"
+                Grid.Column="0"
+                FontSize="36"
+                BorderRadius="0"
+                BackgroundColor="White"
+                Clicked="OnNumeroSelecionado"/>
+
+        <Button Text="."
+                Grid.Row="5"
+                Grid.Column="1"
+                FontSize="36"
+                BorderRadius="0"
+                BackgroundColor="White"/>
+
+        <Button Text="="
+                Grid.Row="5"
+                Grid.Column="2"
+                FontSize="36"
+                BorderRadius="0"
+                TextColor="White"
+                BackgroundColor="#2980b9"
+                Clicked="OnCalcular"/>
+
+        <Button Text="+"
+                Grid.Row="5"
+                Grid.Column="3"
+                FontSize="36"
+                BorderRadius="0"
+                TextColor="White"
+                BackgroundColor="#3498db"
+                Clicked="OnOperadorSelecionado"/>
+        
+    </Grid>
+
+</ContentPage>
