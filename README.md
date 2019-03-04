@@ -6,6 +6,7 @@ Disciplina do terceiro semestre (matutino) do curso de Análise e Desenvolviment
 
 - [Criando aplicativos móveis com xamarin. Forms book](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/creating-mobile-apps-xamarin-forms/)
 - [Xamarin University Self-Guided Learning](https://elearning.xamarin.com/)
+- [Instalação e Configuração do Xamarin no Windows](https://developer.xamarin.com/pt-br/guides/android/getting_started/installation/index.html)
 
 ## Ferramentas utilizadas
 
@@ -19,10 +20,10 @@ Disciplina do terceiro semestre (matutino) do curso de Análise e Desenvolviment
 Projetos desenvolvidos em sala de aula com os alunos
 
 ### Projeto 1 - Calculadora de IMC
-* **Layout:** StackLayout
-* **Componentes:** [Label](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/user-interface/text/label), [Entry](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/user-interface/text/entry), [Button](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/user-interface/button) e [DisplayAlert](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/app-fundamentals/navigation/pop-ups)
-* **Dicas:** [Conveter tipos](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/types/how-to-convert-a-string-to-a-number) e [Interpolar caracteres](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/tokens/interpolated)
-* **Desafio:** Apresentar a informação da [Tabela do IMC](http://www.calculoimc.com.br/tabela-de-imc/) no DisplayAlert junto com as outras informações do usuário
+- **Layout:** StackLayout
+- **Componentes:** [Label](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/user-interface/text/label), [Entry](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/user-interface/text/entry), [Button](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/user-interface/button) e [DisplayAlert](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/app-fundamentals/navigation/pop-ups)
+- **Dicas:** [Conveter tipos](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/types/how-to-convert-a-string-to-a-number) e [Interpolar caracteres](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/tokens/interpolated)
+- **Desafio:** Apresentar a informação da [Tabela do IMC](http://www.calculoimc.com.br/tabela-de-imc/) no DisplayAlert junto com as outras informações do usuário
 
 <p align="center">
   <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshots/calculadora_imc_1.png" height="400"/>
@@ -30,17 +31,36 @@ Projetos desenvolvidos em sala de aula com os alunos
   <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshots/calculadora_imc_3.png" height="400"/>
 </p>
 
-### Projeto 2 - Calculadora
-* **Layout:** [GridLayout](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/user-interface/layouts/grid)
-* **Componentes:** [TitleView](https://www.andrewhoefling.com/Home/post/xamarin-forms-title-view-a-powerful-navigation-view), Label, Entry e Button
-* **Dicas:** [Manipulação de Strings](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/strings/)
-* **Desafio:** Fazer a calculadora funcionar com números de ponto flutuante (números quebrados)
+### Projeto 2 - Calculadora Matemática
+- **Layout:** [GridLayout](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/user-interface/layouts/grid)
+- **Componentes:** [TitleView](https://www.andrewhoefling.com/Home/post/xamarin-forms-title-view-a-powerful-navigation-view), Label, Entry e Button
+- **Dicas:** [Manipulação de Strings](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/strings/)
+- **Desafio:** Fazer a calculadora funcionar com números de ponto flutuante (números quebrados) e adcionar uma tecla para inversão de sinal (+/-)
 
 <p align="center">
   <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshots/calculadora_1.png" height="400"/>
   <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshots/calculadora_2.png" height="400"/>
   <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshots/calculadora_3.png" height="400"/>
 </p>
+
+### Projeto 3 - Calculadora de Combustível
+- **Layout:** StackLayout e GridLayout
+- **Componentes:** Label, Entry, Button e [NavigationPage](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/app-fundamentals/navigation/hierarchical)
+- **Dicas:** [Aplicar estilos](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/user-interface/styles/xaml/), [Formato de moeda brasileiro](https://docs.microsoft.com/pt-br/dotnet/standard/base-types/standard-numeric-format-strings)
+- **Desafio:** Fazer validações para os campos de entrada do usuário e criar um estilo próprio
+
+<p align="center">
+  <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshots/calculadora_combustivel_1.png" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshots/calculadora_combustivel_2.png" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshots/calculadora_combustivel_3.png" height="400"/>
+</p>
+
+### Projeto 4 - 
+- **Layout:** 
+- **Componentes:** Label, Entry, Button e TitleView
+- **Dicas:** 
+- **Desafio:** 
+
 
 Licença
 ----

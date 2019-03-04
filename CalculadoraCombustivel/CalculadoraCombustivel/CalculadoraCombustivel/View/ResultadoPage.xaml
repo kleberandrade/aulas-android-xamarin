@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CalculadoraCombustivel.View.ResultadoPage"
+             Title="Resultado"
+             NavigationPage.HasBackButton="True">
+    
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand" Padding="20">
+
+            <Label Text="Valores Informados" Style="{StaticResource EstiloTituloLabel}"/>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                <Label Text="R$/Litro do etanol" HorizontalOptions="StartAndExpand" HorizontalTextAlignment="Start" />
+                <Label x:Name="precoEtanolLabel" FontAttributes="Bold" HorizontalOptions="EndAndExpand" HorizontalTextAlignment="End" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                <Label Text="R$/Litro da gasolina" HorizontalOptions="StartAndExpand" HorizontalTextAlignment="Start" />
+                <Label x:Name="precoGasolinaLabel" FontAttributes="Bold" HorizontalOptions="EndAndExpand" HorizontalTextAlignment="End" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                <Label Text="Km/Litro do etanol" HorizontalOptions="StartAndExpand" HorizontalTextAlignment="Start" />
+                <Label x:Name="consumoEtanolLabel" FontAttributes="Bold" HorizontalOptions="EndAndExpand" HorizontalTextAlignment="End" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                <Label Text="Km/Litro da gasolina" HorizontalOptions="StartAndExpand" HorizontalTextAlignment="Start" />
+                <Label x:Name="consumoGasolinaLabel" FontAttributes="Bold" HorizontalOptions="EndAndExpand" HorizontalTextAlignment="End"/>
+            </StackLayout>
+
+            <Label Text="Resultados" Style="{StaticResource EstiloTituloLabel}" Margin="0,20,0,0"/>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                <Label Text="Relação etanol/gasolina" HorizontalOptions="StartAndExpand" HorizontalTextAlignment="Start" />
+                <Label x:Name="relacaoEtanolGasolinaLabel" FontAttributes="Bold" HorizontalOptions="EndAndExpand" HorizontalTextAlignment="End" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                <Label Text="Gasto com etanol" HorizontalOptions="StartAndExpand" HorizontalTextAlignment="Start"/>
+                <Label x:Name="gastoEtanolLabel" FontAttributes="Bold" HorizontalOptions="EndAndExpand" HorizontalTextAlignment="End" />
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                <Label Text="Gasto com gasolina" HorizontalOptions="StartAndExpand" HorizontalTextAlignment="Start"/>
+                <Label x:Name="gastoGasolinaLabel" FontAttributes="Bold" HorizontalOptions="EndAndExpand" HorizontalTextAlignment="End" />
+            </StackLayout>
+
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Label x:Name="abastecaComResultadoLabel" FontAttributes="Bold" FontSize="28" HorizontalTextAlignment="Center" TextColor="#e74c3c"/>
+                <Label x:Name="economiaLabel" Margin="0" FontAttributes="Bold" HorizontalTextAlignment="Center" FontSize="18" TextColor="#e74c3c"/>
+            </StackLayout>
+
+            <Button Text="Voltar" VerticalOptions="End" Clicked="OnVoltar" Style="{StaticResource EstiloButton}"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>

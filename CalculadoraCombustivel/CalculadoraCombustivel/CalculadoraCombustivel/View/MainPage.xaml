@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CalculadoraCombustivel"
+             x:Class="CalculadoraCombustivel.MainPage"
+             Title="Calculadora de Combustível">
+
+    <ContentPage.Content>
+        
+        <StackLayout VerticalOptions="FillAndExpand" Padding="20">
+
+            <Label Text="Preço por litro (R$)"
+               Style="{StaticResource EstiloTituloLabel}"/>
+
+            <Label Text="Etanol" 
+               Style="{StaticResource EstiloDescricaoLabel}" />
+
+            <Entry x:Name="precoEtanolEntry" 
+               Placeholder="Preço do etanol"
+               Style="{StaticResource EstiloEntry}"/>
+
+            <Label Text="Gasolina" 
+               Style="{StaticResource EstiloDescricaoLabel}" />
+
+            <Entry x:Name="precoGasolinaEntry" 
+               Placeholder="Preço da gasolina"
+               Style="{StaticResource EstiloEntry}"/>
+
+            <Label Text="Consumo médio (Km/Litro)"
+               Margin="0,20,0,0"
+               Style="{StaticResource EstiloTituloLabel}"/>
+
+            <Label Text="Etanol" 
+               Style="{StaticResource EstiloDescricaoLabel}" />
+
+            <Entry x:Name="consumoMedioEtanolEntry" 
+               Placeholder="Consumo médio com etanol"
+               Style="{StaticResource EstiloEntry}"/>
+
+            <Label Text="Gasolina" 
+               Style="{StaticResource EstiloDescricaoLabel}" />
+
+            <Entry x:Name="consumoMedioGasolinaEntry" 
+               Placeholder="Consumo médio com gasolina"
+               Style="{StaticResource EstiloEntry}"/>
+
+            <Button Text="Calcular"
+                VerticalOptions="EndAndExpand"
+                Clicked="OnCalcular"
+                Style="{StaticResource EstiloButton}"/>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+
+</ContentPage>
