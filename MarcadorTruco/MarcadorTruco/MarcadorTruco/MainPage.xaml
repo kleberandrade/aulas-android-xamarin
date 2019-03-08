@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MarcadorTruco"
+             x:Class="MarcadorTruco.MainPage">
+
+    <Grid RowSpacing="20" ColumnSpacing="20" Margin="20">
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <!-- Linha 0 -->
+        <Label Text="NÓS" 
+               FontSize="18"
+               Grid.Row="0" 
+               Grid.Column="0" 
+               FontAttributes="Bold"
+               TextColor="#3498DB"
+               VerticalTextAlignment="Center"
+               HorizontalTextAlignment="Center"/>
+
+        <Label Text="ELES" 
+               FontSize="18"
+               Grid.Row="0" 
+               Grid.Column="1"
+               FontAttributes="Bold"
+               TextColor="#3498DB"
+               VerticalTextAlignment="Center"
+               HorizontalTextAlignment="Center"/>
+
+        <!-- Linha 1 -->
+        <Label Text="0"
+               x:Name="jogador1Label"
+               FontSize="82"
+               Grid.Row="1" 
+               Grid.Column="0"
+               VerticalTextAlignment="Center"
+               HorizontalTextAlignment="Center"/>
+
+        <Label Text="0" 
+               x:Name="jogador2Label"
+               FontSize="82"
+               Grid.Row="1" 
+               Grid.Column="1"
+               VerticalTextAlignment="Center"
+               HorizontalTextAlignment="Center"/>
+        
+        <!-- Linha 2 -->
+        <Button Text="+1" 
+                Grid.Row="2" 
+                Grid.Column="0"
+                TextColor="White"
+                BackgroundColor="#3498DB"
+                FontAttributes="Bold"
+                FontSize="20"
+                Clicked="OnComputarPontoJogador1"/>
+
+        <Button Text="+1" 
+                Grid.Row="2" 
+                Grid.Column="1"
+                TextColor="White"
+                BackgroundColor="#3498DB"
+                FontAttributes="Bold"
+                FontSize="20"
+                Clicked="OnComputarPontoJogador2"/>
+
+        <!-- Linha 3 -->
+        <Button Text="+3" 
+                Grid.Row="3" 
+                Grid.Column="0"
+                TextColor="White"
+                BackgroundColor="#3498DB"
+                FontAttributes="Bold"
+                FontSize="20"
+                Clicked="OnComputarPontoJogador1"/>
+
+        <Button Text="+3" 
+                Grid.Row="3" 
+                Grid.Column="1"
+                TextColor="White"
+                BackgroundColor="#3498DB"
+                FontAttributes="Bold"
+                FontSize="20"
+                Clicked="OnComputarPontoJogador2"/>
+
+        <!-- Linha 4 -->
+        <Button Text="+6" 
+                Grid.Row="4" 
+                Grid.Column="0"
+                TextColor="White"
+                BackgroundColor="#3498DB"
+                FontAttributes="Bold"
+                FontSize="20"
+                Clicked="OnComputarPontoJogador1"/>
+
+        <Button Text="+6" 
+                Grid.Row="4" 
+                Grid.Column="1"
+                TextColor="White"
+                BackgroundColor="#3498DB"
+                FontAttributes="Bold"
+                FontSize="20"
+                Clicked="OnComputarPontoJogador2"/>
+
+        <!-- Linha 5 -->
+        <Button Text="+9" 
+                Grid.Row="5" 
+                Grid.Column="0"
+                TextColor="White"
+                BackgroundColor="#3498DB"
+                FontAttributes="Bold"
+                FontSize="20"
+                Clicked="OnComputarPontoJogador1"/>
+
+        <Button Text="+9" 
+                Grid.Row="5" 
+                Grid.Column="1"
+                TextColor="White"
+                BackgroundColor="#3498DB"
+                FontAttributes="Bold"
+                FontSize="20"
+                Clicked="OnComputarPontoJogador2"/>
+
+        <!-- Linha 6 -->
+        <Button Text="+12" 
+                Grid.Row="6" 
+                Grid.Column="0"
+                TextColor="White"
+                BackgroundColor="#3498DB"
+                FontAttributes="Bold"
+                FontSize="20"
+                Clicked="OnComputarPontoJogador1"/>
+
+        <Button Text="+12" 
+                Grid.Row="6" 
+                Grid.Column="1"
+                TextColor="White"
+                BackgroundColor="#3498DB"
+                FontAttributes="Bold"
+                FontSize="20"
+                Clicked="OnComputarPontoJogador2"/>
+
+        <!-- Linha 7 -->
+        <Button Text="Novo Jogo" 
+                Grid.Row="7" 
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                TextColor="White"
+                BackgroundColor="#3498DB"
+                FontAttributes="Bold"
+                FontSize="20"
+                Clicked="OnNovoJogo"/>
+        
+    </Grid>
+
+</ContentPage>
