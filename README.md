@@ -37,7 +37,7 @@ Projetos desenvolvidos em sala de aula com os alunos
 ### Projeto 2 - Marcador de Truco 
 - **Layout:** [GridLayout](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/user-interface/layouts/grid)
 - **Componentes:** Label e Button 
-- **Dicas:** [Parse de string para valores](), [DisplayAlert de forma assincrona]() e [Rotação da tela]()
+- **Dicas:** [Parse de string para valores](https://docs.microsoft.com/pt-br/dotnet/api/system.int32.parse?view=netframework-4.7.2), [Interpretando o click no DisplayAlert](http://www.randrade.net/2017/02/08/implementando-alertas-no-xamarin-forms-para-todos-os-sistemas-operacionais/) e [Orientação do dispositivo](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/user-interface/layouts/device-orientation?tabs=windows)
 - **Desafio:** Apresentar um DisplayAlert para mão de 11; Criar uma forma para desfazer pontuação; Travar a rotação da tela 
 
 <p align="center">
