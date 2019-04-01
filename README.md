@@ -58,8 +58,8 @@ Projetos desenvolvidos em sala de aula com os alunos
 </p>
 
 ### Projeto 4 - Calculadora de Combustível
-* **Layout:** StackLayout e GridLayout
-* **Componentes:** Label, Entry, Button e [NavigationPage](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/app-fundamentals/navigation/hierarchical)
+***Layout:** StackLayout e GridLayout
+*  **Componentes:** Label, Entry, Button e [NavigationPage](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/app-fundamentals/navigation/hierarchical)
 * **Dicas:** [Aplicar estilos](https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/user-interface/styles/xaml/), [Formato de moeda brasileiro](https://docs.microsoft.com/pt-br/dotnet/standard/base-types/standard-numeric-format-strings)
 * **Desafio:** Fazer validações para os campos de entrada do usuário e criar um estilo próprio
 
