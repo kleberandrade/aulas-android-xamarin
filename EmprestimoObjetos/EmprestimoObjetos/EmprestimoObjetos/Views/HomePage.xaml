@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EmprestimoObjetos.Views.HomePage"
+             Title="Objetos Emprestados">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="+" Clicked="OnAdicionarNovoObjetoEmprestado" />
+    </ContentPage.ToolbarItems>
+
+    <StackLayout Orientation="Vertical">
+
+        <SearchBar x:Name="ObjetoEmprestadoSearchBar" Placeholder="Procurar por..." TextChanged="OnTextChanged" />
+
+        <ListView x:Name="ObjetoEmprestadoListView" 
+                      CachingStrategy="RecycleElement"  
+                      SeparatorVisibility="Default"
+                      IsPullToRefreshEnabled="true"
+                      Margin="0,10,0,0" 
+                      HasUnevenRows="True"
+                      ItemSelected="OnItemSelecionado">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" Padding="10" BackgroundColor="White">
+                            <BoxView BackgroundColor="#3498db" WidthRequest="5" Margin="0,0,10,0" />
+                            <StackLayout Orientation="Vertical">
+                                <Label Text="{Binding Descricao}" FontAttributes="Bold" />
+                                <Label Text="{Binding Nome, StringFormat='Emprestado para {0}'}" />
+                                <Label Text="{Binding Data, StringFormat='Emprestado em {0:dd MMMM yyyy}'}" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+    </StackLayout>
+
+</ContentPage>

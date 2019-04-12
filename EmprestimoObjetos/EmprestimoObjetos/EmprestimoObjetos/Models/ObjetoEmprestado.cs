@@ -10,15 +10,17 @@ namespace EmprestimoObjetos.Models
 
         public string Nome { get; set; }
 
-        public string Decricao { get; set; }
+        public string Descricao { get; set; }
 
         public DateTime Data { get; set; }
 
         public override bool Equals(object obj)
         {
-            ObjetoEmprestado objetoEmprestado = obj as ObjetoEmprestado;
+            var objetoEmprestado = obj as ObjetoEmprestado;
             if (objetoEmprestado == null)
+            {
                 return false;
+            }
 
             return Id.Equals(objetoEmprestado.Id);
         }
@@ -26,6 +28,11 @@ namespace EmprestimoObjetos.Models
         public override int GetHashCode()
         {
             return Id.GetHashCode();
+        }
+
+        public bool Contains(String texto)
+        {
+            return Nome.ToLower().Contains(texto.ToLower()) || Descricao.ToLower().Contains(texto.ToLower());
         }
     }
 }

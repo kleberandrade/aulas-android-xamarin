@@ -86,6 +86,9 @@ Projetos desenvolvidos em sala de aula com os alunos
   <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshots/emprestimo_objetos_1.png" height="400"/>
   <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshots/emprestimo_objetos_2.png" height="400"/>
   <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshots/emprestimo_objetos_3.png" height="400"/>
+    <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshots/emprestimo_objetos_4.png" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshots/emprestimo_objetos_5.png" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Screenshots/emprestimo_objetos_6.png" height="400"/>
 </p>
 
 ## Licença

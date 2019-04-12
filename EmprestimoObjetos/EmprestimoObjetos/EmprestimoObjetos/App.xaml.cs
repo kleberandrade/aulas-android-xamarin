@@ -1,4 +1,4 @@
-﻿using System;
+﻿using EmprestimoObjetos.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +11,7 @@ namespace EmprestimoObjetos
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new HomePage());
         }
 
         protected override void OnStart()

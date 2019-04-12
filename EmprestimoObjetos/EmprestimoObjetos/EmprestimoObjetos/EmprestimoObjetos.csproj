@@ -17,4 +17,13 @@
   <ItemGroup>
     <Folder Include="Helpers\" />
   </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\CadastroObjetoEmprestadoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\HomePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
 </Project>

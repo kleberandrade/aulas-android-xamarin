@@ -1,9 +1,7 @@
-﻿using SQLite;
-
-namespace EmprestimoObjetos.Services
+﻿namespace EmprestimoObjetos.Services
 {
     public interface ICaminhoSQLite
     {
-        string GetCaminhoDB(string dbName)
+        string GetCaminhoDB(string dbName);
     }
 }

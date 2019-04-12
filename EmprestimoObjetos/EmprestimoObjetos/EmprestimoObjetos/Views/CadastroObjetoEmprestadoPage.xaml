@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EmprestimoObjetos.Views.CadastroObjetoEmprestadoPage"
+             Title="Detalhes do Objeto Emprestado">
+
+    <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" Padding="20" >
+    
+        <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+            <Label Text="Descrição do objeto emprestado" />
+            <Entry x:Name="Descricao" Placeholder="Objeto emprestado ..." />
+
+            <Label Text="Emprestado para" Margin="0, 20, 0, 0"/>
+            <Entry x:Name="Nome" Placeholder="Nome da pessoa ..." />
+
+            <Label Text="Data do empréstrimo" Margin="0, 20, 0, 0" />
+            <DatePicker x:Name="Data" MinimumDate="01/01/2000" Format="dd/MM/yyyy"/>
+
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Fill">
+            <Button x:Name="SalvarButton" Text="Salvar" HorizontalOptions="FillAndExpand" Clicked="OnSalvarObjetoEmprestado"/>
+            <Button x:Name="AtualizarButton" Text="Atualizar" HorizontalOptions="FillAndExpand" IsVisible="False" Clicked="OnAtualizarObjetoEmprestado"/>
+            <Button x:Name="ExcluirButton" Text="Excluir" HorizontalOptions="FillAndExpand" IsVisible="False" Clicked="OnExcluirObjetoEmprestado"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
