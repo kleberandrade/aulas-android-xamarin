@@ -1,3 +1,41 @@
+# Xamarin Mobile Programming Classes
+
+![Language: C#](https://img.shields.io/badge/Language-C%23-555555)
+![Platform: Xamarin](https://img.shields.io/badge/Platform-Xamarin-512BD4)
+[![License: MIT](https://img.shields.io/badge/License-MIT-555555)](https://github.com/kleberandrade/aulas-android-xamarin/blob/master/LICENSE)
+
+C# and Xamarin mobile-app examples used in programming classes at FATEC Americana.
+
+## Getting started
+
+- Open the tracked solution in an IDE supporting its target framework. Inspect the `.csproj` files before selecting a runtime; these sources are not automatically compatible with the latest .NET SDK.
+
+- These are historical Xamarin examples. A modern .NET MAUI migration is a separate code change, not part of this documentation update.
+
+## Recorded requirements
+
+- Recorded target in [Calculadora/Calculadora/Calculadora.Android/Calculadora.Android.csproj](https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Calculadora/Calculadora/Calculadora.Android/Calculadora.Android.csproj): `v8.1`.
+
+## Repository map
+
+- [Calculadora/Calculadora.sln](https://github.com/kleberandrade/aulas-android-xamarin/blob/master/Calculadora/Calculadora.sln)
+- [CalculadoraCombustivel/CalculadoraCombustivel.sln](https://github.com/kleberandrade/aulas-android-xamarin/blob/master/CalculadoraCombustivel/CalculadoraCombustivel.sln)
+- [CalculadoraIMC/CalculadoraIMC.sln](https://github.com/kleberandrade/aulas-android-xamarin/blob/master/CalculadoraIMC/CalculadoraIMC.sln)
+- [EmprestimoObjetos/EmprestimoObjetos.sln](https://github.com/kleberandrade/aulas-android-xamarin/blob/master/EmprestimoObjetos/EmprestimoObjetos.sln)
+- [MarcadorTruco/MarcadorTruco.sln](https://github.com/kleberandrade/aulas-android-xamarin/blob/master/MarcadorTruco/MarcadorTruco.sln)
+
+## Validation status
+
+This update documents the tracked source and project metadata. It does not certify a successful build, device test or compatibility with a current toolchain. Follow any project-specific validation instructions in the original material.
+
+## License and attribution
+
+See [LICENSE](https://github.com/kleberandrade/aulas-android-xamarin/blob/master/LICENSE) and any notices accompanying third-party code and assets. This documentation update does not change licensing or authorship.
+
+---
+
+## Original project material
+
 # Programação para Dispositivos Móveis (Xamarin)
 
 Disciplina do terceiro semestre (matutino) do curso de Análise e Desenvolvimento de Sistemas na [Faculdade de Tecnologia de Americana](http://www.fatec.edu.br/).
